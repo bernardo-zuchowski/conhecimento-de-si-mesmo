@@ -616,6 +616,21 @@ button:hover {
   background-color: #ffffff;
   transition: all 0.3s ease;
 }
+img.icon-paises {
+  width: 15px;
+}
+.mundo-links li {
+  list-style: none;
+  margin-bottom: 12px;
+}
+.mundo-links a {
+  font-weight: 300;
+  text-decoration: none;
+  color: #151515;
+}
+.mundo-links a:hover {
+  color: white;
+}
 .social-links > *{
 	list-style: none;
 }
