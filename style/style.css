@@ -159,6 +159,12 @@ main {
   margin-bottom: 15px;
   padding-bottom: 10px;
 }
+.main-desc h4 {
+  padding-bottom: 5px;
+}
+.main-desc li {
+  padding-bottom: 5px;
+}
 .main-desc,
 .main-desc div,
 .main-desc a {
@@ -702,7 +708,7 @@ img.icon-paises {
     display:inline-flex;
   }
 }
-@media (max-width: 1126px) {
+@media (max-width: 1145px) {
   header.disabled :not(.banner) {
     overflow: hidden;
     display: block;
