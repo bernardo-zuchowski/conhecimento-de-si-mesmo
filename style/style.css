@@ -209,6 +209,14 @@ h6 > a {
   border: #b5cddd 2px solid;
   text-transform: lowercase;
 }
+.retornar-estudo {
+  text-decoration: none;
+  color: #5a9ce2;
+}
+.retornar-estudo:hover {
+  font-weight: 600;
+  padding-left: 5px;
+}
 .preguiça {
 grid-template-columns: repeat(auto-fit, minmax(250px, auto));
 }
