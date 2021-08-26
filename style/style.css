@@ -163,7 +163,7 @@ main {
   padding-bottom: 5px;
 }
 .main-desc li {
-  padding-bottom: 5px;
+  padding-bottom: 3px;
 }
 .main-desc,
 .main-desc div,
@@ -181,6 +181,60 @@ main {
 h6 > a {
   color: #151515;
   line-height: 50px;
+}
+.main-estudos {
+  line-height: 24px;
+}
+.main-estudos h3,
+.main-estudos h4 {
+  text-align: center;
+  padding: 2px 10px 2px 10px;
+}
+.main-estudos h3 {
+  border: #b5cddd solid 2px;
+}
+.main-estudos h4 {
+  background-color:#b5cddd;
+}
+.list-eus-causa {
+  font-size: 14px;
+  list-style: inside;
+}
+.list-eus-causa :not(:last-child) {
+  padding-bottom: 0;
+}
+.grid-eus-causa {
+  padding-top: 5px;
+  display: grid;
+  border: #b5cddd 2px solid;
+  text-transform: lowercase;
+}
+.preguiça {
+grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+}
+.cobiça {
+grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+}
+.luxuria {
+grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+}
+.orgulho {
+grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+}
+.ira {
+grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+}
+.gula {
+grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+}
+.inveja {
+grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+}
+.grid-eus-causa li {
+  padding: 2px 10px 2px 10px;
+}
+.grid-eus-causa li {
+  border-bottom: #b5cddd solid 2px;
 }
 /* configurações conferencias.html */
 .conferencias-links {
