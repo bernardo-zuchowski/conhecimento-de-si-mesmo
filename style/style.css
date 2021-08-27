@@ -377,7 +377,6 @@ p.subtitle {
   ". seg ter qua qui sex sab dom"
   "hora1000 . . . . . . dom10001100-1"
   "hora1100 . . . . . . dom10001100-2"
-  "hora1600 . . . qui-sab1600-1 . qui-sab1600-2 ."
   "hora1800 . . . . . sab18001900-1 ."
   "hora1900 seg-qua1900-1 ter-qui1900-1 seg-qua1900-2 ter-qui1900-2 . sab18001900-2 ."
   "hora1930 seg-qua1930-1 . seg-qua1930-2 . . . ."
@@ -436,9 +435,6 @@ p.indent-h {
 .hora1100 {
   grid-area: hora1100;
 }
-.hora1600 {
-  grid-area: hora1600;
-}
 .hora1800 {
   grid-area: hora1800;
 }
@@ -459,16 +455,6 @@ p.indent-h {
 .dom10001100-2 {
   grid-area: dom10001100-2;
   background-color: #007bff;
-  border-radius: 5em;
-}
-.qui-sab1600-1 {
-  grid-area: qui-sab1600-1;
-  background-color: #cc6ec0;
-  border-radius: 5em;
-}
-.qui-sab1600-2 {
-  grid-area: qui-sab1600-2;
-  background-color: #cc6ec0;
   border-radius: 5em;
 }
 .sab18001900-1 {
