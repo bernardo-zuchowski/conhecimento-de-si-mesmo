@@ -9,7 +9,7 @@ class Header extends HTMLElement {
                 <nav class="navbar">
                 <div class="content">
                     <div class="logo">
-                    <a href="index.html">Conhecimento de Si Mesmo</a>
+                        <a href="index.html">Conhecimento de Si Mesmo</a>
                     </div>
                     <ul class="menu-list">
                     <div class="icon cancel-btn">

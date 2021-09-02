@@ -49,6 +49,10 @@ main {
   align-items: center;
   justify-content: space-between;
 }
+div.logo a:hover {
+  font-weight: 700;
+  letter-spacing: -0.4px;
+}
 .navbar .logo a{
   font-family: 'Vollkorn', serif;
   font-weight: 569;
