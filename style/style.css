@@ -212,7 +212,6 @@ h6 > a {
   padding-top: 5px;
   display: grid;
   border: #b5cddd 2px solid;
-  text-transform: lowercase;
 }
 .retornar-estudo {
   text-decoration: none;
@@ -221,6 +220,9 @@ h6 > a {
 .retornar-estudo:hover {
   font-weight: 600;
   padding-left: 5px;
+}
+.centros {
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
 }
 .preguiça {
 grid-template-columns: repeat(auto-fit, minmax(250px, auto));
