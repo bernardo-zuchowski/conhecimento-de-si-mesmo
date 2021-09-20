@@ -155,7 +155,7 @@ div.logo a:hover {
   padding: 20px 30px 20px 30px;
   margin: auto auto;
   max-width: 930px;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.9);
 }
 .main-title,
 .main-desc,
@@ -381,8 +381,8 @@ p.subtitle {
   grid-template-columns: 0.5fr repeat(7, 1fr);
   grid-template-areas:
   ". seg ter qua qui sex sab dom"
-  "hora1000 . . . . . . dom10001100-1"
-  "hora1100 . . . . . . dom10001100-2"
+  "hora0900 . . . . . . dom09001000-1"
+  "hora1000 . . . . . . dom09001000-2"
   "hora1800 . . . . . sab18001900-1 ."
   "hora1900 seg-qua1900-1 ter-qui1900-1 seg-qua1900-2 ter-qui1900-2 . sab18001900-2 ."
   "hora1930 seg-qua1930-1 . seg-qua1930-2 . . . ."
@@ -435,11 +435,11 @@ p.indent-h {
 .dom {
   grid-area: dom;
 }
+.hora0900 {
+  grid-area: hora0900;
+}
 .hora1000 {
   grid-area: hora1000;
-}
-.hora1100 {
-  grid-area: hora1100;
 }
 .hora1800 {
   grid-area: hora1800;
@@ -453,13 +453,13 @@ p.indent-h {
 .hora2000 {
   grid-area: hora2000;
 }
-.dom10001100-1 {
-  grid-area: dom10001100-1;
+.dom09001000-1 {
+  grid-area: dom09001000-1;
   background-color: #007bff;
   border-radius: 5em;
 }
-.dom10001100-2 {
-  grid-area: dom10001100-2;
+.dom09001000-2 {
+  grid-area: dom09001000-2;
   background-color: #007bff;
   border-radius: 5em;
 }
